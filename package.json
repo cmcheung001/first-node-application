@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/cmcheung001/first-node-application/issues"
   },
-  "homepage": "https://github.com/cmcheung001/first-node-application#readme"
+  "homepage": "https://github.com/cmcheung001/first-node-application#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
