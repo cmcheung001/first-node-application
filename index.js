@@ -1,9 +1,11 @@
-const http = require(“http”);
-const hostname = “localhost”;
-const port = 3700;
-const server = http.createServer((req, res) => {
- console.log(req.headers);
- res.statusCode = 200;
- res.end(“<html><body><h1>Hello, World!</h1></body></html”);
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Hello World by Jeremy in index.js in docker env')
 })
-server.listen(port, hostname);
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
