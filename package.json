@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/cmcheung001/first-node-application#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.21.0"
   }
 }
